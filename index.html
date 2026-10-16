@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b1220">
+    <meta name="description" content="Explore system administrator certifications, essential IT skills, and trusted learning resources to plan your career.">
+    <title>SysAdmin Path — Certifications & Career Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#home" aria-label="SysAdmin Path home">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span>sysadmin<span class="brand-accent">path</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation menu">
+          <span></span><span></span>
+        </button>
+        <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+          <a href="#certifications">Certifications</a>
+          <a href="#skills">Skills</a>
+          <a href="#resources">Learning resources</a>
+          <a href="#about">About</a>
+          <a class="nav-cta" href="#certifications">Explore the path <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section-shell" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> YOUR IT CAREER STARTS HERE</p>
+          <h1>Build the systems.<br>Become the <span>expert.</span></h1>
+          <p class="hero-description">A practical guide to the certifications, hands-on skills, and learning resources that help you grow into a confident System Administrator.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#certifications">Explore certifications <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#skills">See the essential skills <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-proof">
+            <div class="proof-avatars" aria-hidden="true"><span>01</span><span>02</span><span>03</span></div>
+            <p><strong>Start with the fundamentals.</strong><br>Build skills that last throughout your career.</p>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Illustration of connected system administration tools" role="img">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="terminal-card">
+            <div class="terminal-bar"><span></span><span></span><span></span><small>sysadmin@workstation: ~</small></div>
+            <div class="terminal-body">
+              <p><span class="terminal-prompt">$</span> systemctl status</p>
+              <p class="terminal-muted">● infrastructure.service</p>
+              <p class="terminal-success">Active: <b>running</b> since today</p>
+              <p><span class="terminal-prompt">$</span> <i class="cursor"></i></p>
+            </div>
+          </div>
+          <div class="floating-chip chip-linux"><span class="chip-icon">⌘</span><span><small>OPERATING SYSTEM</small><b>Linux + Windows</b></span></div>
+          <div class="floating-chip chip-network"><span class="chip-icon">⌁</span><span><small>CORE KNOWLEDGE</small><b>Networks & security</b></span></div>
+          <div class="art-caption"><span class="caption-line"></span> KEEP LEARNING. KEEP BUILDING.</div>
+        </div>
+        <div class="hero-bottom">
+          <span>YOUR ROADMAP, AT A GLANCE</span>
+          <div><span>01</span> Certifications <i></i><span>02</span> Core skills <i></i><span>03</span> Learn by doing</div>
+        </div>
+      </section>
+
+      <section class="intro-strip">
+        <div class="section-shell intro-inner">
+          <p class="eyebrow">WHY CERTIFICATIONS?</p>
+          <p>Certifications give your learning structure, validate what you know, and help employers understand the skills you’re ready to bring to a team. Pair them with hands-on practice for the strongest foundation.</p>
+          <a class="arrow-link" href="#certifications" aria-label="Jump to certification guide">↘</a>
+        </div>
+      </section>
+
+      <section class="content-section section-shell" id="certifications">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="section-number">01</span> FIND YOUR NEXT STEP</p>
+            <h2>Certifications that<br><span>move you forward.</span></h2>
+          </div>
+          <p class="section-intro">There’s no single route into system administration. Start with a broad foundation, then choose a specialty that matches your goals.</p>
+        </div>
+        <div class="cert-toolbar">
+          <div class="filter-tabs" role="group" aria-label="Filter certifications">
+            <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All certifications <span>4</span></button>
+            <button class="filter-button" type="button" data-filter="foundation" aria-pressed="false">Foundations</button>
+            <button class="filter-button" type="button" data-filter="specialty" aria-pressed="false">Specialty</button>
+          </div>
+          <label class="search-wrap">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <span class="visually-hidden">Search certifications</span>
+            <input id="cert-search" type="search" placeholder="Search certifications" autocomplete="off">
+            <kbd>/</kbd>
+          </label>
+        </div>
+        <div class="cert-grid" id="cert-grid">
+          <article class="cert-card" data-category="foundation" data-search="comptia a+ comptia hardware operating systems troubleshooting support">
+            <div class="card-topline"><span class="cert-logo logo-comptia">CompTIA</span><span class="level-tag">01 / FOUNDATION</span></div>
+            <h3>CompTIA A+</h3>
+            <p class="cert-issuer">Issued by CompTIA</p>
+            <p class="cert-description">A starting point for IT support and operations, covering the technologies and troubleshooting practices used to support devices and users.</p>
+            <div class="skill-tags"><span>Hardware</span><span>Operating systems</span><span>Troubleshooting</span></div>
+            <a class="card-link" href="https://www.comptia.org/certifications/a" target="_blank" rel="noopener noreferrer">View official certification <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="cert-card" data-category="foundation" data-search="comptia network+ networking infrastructure troubleshooting security">
+            <div class="card-topline"><span class="cert-logo logo-comptia">CompTIA</span><span class="level-tag">02 / FOUNDATION</span></div>
+            <h3>CompTIA Network+</h3>
+            <p class="cert-issuer">Issued by CompTIA</p>
+            <p class="cert-description">Builds practical networking knowledge for deploying, managing, and troubleshooting wired and wireless networks.</p>
+            <div class="skill-tags"><span>Networking</span><span>Infrastructure</span><span>Security</span></div>
+            <a class="card-link" href="https://www.comptia.org/certifications/network" target="_blank" rel="noopener noreferrer">View official certification <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="cert-card" data-category="specialty" data-search="red hat certified system administrator rhcsa linux command line">
+            <div class="card-topline"><span class="cert-logo logo-redhat"><span aria-hidden="true">▰</span> Red Hat</span><span class="level-tag">03 / LINUX</span></div>
+            <h3>Red Hat Certified<br>System Administrator</h3>
+            <p class="cert-issuer">Issued by Red Hat</p>
+            <p class="cert-description">Validates the ability to perform core system administration tasks on Red Hat Enterprise Linux in a hands-on exam.</p>
+            <div class="skill-tags"><span>Linux</span><span>Command line</span><span>Administration</span></div>
+            <a class="card-link" href="https://www.redhat.com/en/services/certification/rhcsa" target="_blank" rel="noopener noreferrer">View official certification <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="cert-card" data-category="specialty" data-search="comptia security+ cybersecurity risk security controls">
+            <div class="card-topline"><span class="cert-logo logo-comptia">CompTIA</span><span class="level-tag">04 / SECURITY</span></div>
+            <h3>CompTIA Security+</h3>
+            <p class="cert-issuer">Issued by CompTIA</p>
+            <p class="cert-description">Covers foundational cybersecurity concepts and practical skills for securing systems, networks, and organizational environments.</p>
+            <div class="skill-tags"><span>Cybersecurity</span><span>Risk</span><span>Security controls</span></div>
+            <a class="card-link" href="https://www.comptia.org/certifications/security" target="_blank" rel="noopener noreferrer">View official certification <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+        <p class="no-results" id="no-results" hidden>No certifications match your search. Try another keyword.</p>
+        <p class="source-note">Certification details are summarized from the issuing organizations. Exam objectives and requirements can change; check the official pages for current information.</p>
+      </section>
+
+      <section class="skills-section" id="skills">
+        <div class="section-shell skills-layout">
+          <div class="skills-heading">
+            <p class="eyebrow"><span class="section-number">02</span> BUILD YOUR TOOLKIT</p>
+            <h2>Skills that keep<br>systems <span>running.</span></h2>
+            <p>Certifications can open doors. These everyday capabilities help you thrive once you’re in the room.</p>
+            <a class="text-link" href="#resources">Find resources to build them <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="skills-list">
+            <article class="skill-row"><span class="skill-index">01</span><div><h3>Operating system administration</h3><p>Manage users, permissions, updates, services, and logs across Windows and Linux environments.</p></div><span class="skill-symbol" aria-hidden="true">⌘</span></article>
+            <article class="skill-row"><span class="skill-index">02</span><div><h3>Networking fundamentals</h3><p>Understand IP addressing, DNS, DHCP, routing, and how to diagnose connectivity issues.</p></div><span class="skill-symbol" aria-hidden="true">⌁</span></article>
+            <article class="skill-row"><span class="skill-index">03</span><div><h3>Troubleshooting & problem solving</h3><p>Investigate symptoms methodically, identify root causes, document fixes, and learn from incidents.</p></div><span class="skill-symbol" aria-hidden="true">⌕</span></article>
+            <article class="skill-row"><span class="skill-index">04</span><div><h3>Security-first thinking</h3><p>Apply least privilege, patch systems, protect credentials, and recognize common security risks.</p></div><span class="skill-symbol" aria-hidden="true">◇</span></article>
+            <article class="skill-row"><span class="skill-index">05</span><div><h3>Scripting & automation</h3><p>Use PowerShell or Bash to automate repetitive tasks and make system changes consistent.</p></div><span class="skill-symbol" aria-hidden="true">{ }</span></article>
+            <article class="skill-row"><span class="skill-index">06</span><div><h3>Communication & documentation</h3><p>Explain technical issues clearly, keep useful records, and support people with different skill levels.</p></div><span class="skill-symbol" aria-hidden="true">↗</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section section-shell resources-section" id="resources">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="section-number">03</span> KEEP GROWING</p>
+            <h2>Learn it. Try it.<br><span>Make it stick.</span></h2>
+          </div>
+          <p class="section-intro">Start with trusted, hands-on material. Build a small lab, experiment safely, and revisit the documentation as you go.</p>
+        </div>
+        <div class="resource-grid">
+          <article class="resource-card">
+            <div class="resource-icon icon-microsoft" aria-hidden="true">▦</div>
+            <span class="resource-type">OFFICIAL LEARNING</span>
+            <h3>Microsoft Learn</h3>
+            <p>Free, self-paced modules and learning paths for Windows Server, Azure, and other Microsoft technologies.</p>
+            <a class="card-link" href="https://learn.microsoft.com/training/" target="_blank" rel="noopener noreferrer">Explore Microsoft Learn <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card">
+            <div class="resource-icon icon-redhat" aria-hidden="true">▰</div>
+            <span class="resource-type">OFFICIAL DOCUMENTATION</span>
+            <h3>Red Hat documentation</h3>
+            <p>Product documentation and practical guides for Red Hat Enterprise Linux administration and related technologies.</p>
+            <a class="card-link" href="https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/" target="_blank" rel="noopener noreferrer">Browse Red Hat docs <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="resource-card">
+            <div class="resource-icon icon-linux" aria-hidden="true">⌁</div>
+            <span class="resource-type">HANDS-ON PRACTICE</span>
+            <h3>Linux Journey</h3>
+            <p>A free, approachable guide to Linux concepts, from the command line and permissions to processes and networking.</p>
+            <a class="card-link" href="https://linuxjourney.com/" target="_blank" rel="noopener noreferrer">Start learning Linux <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+        <div class="lab-banner"><div class="lab-icon" aria-hidden="true">✳</div><p><strong>Make a home lab.</strong> Virtual machines are a safe way to practice installing operating systems, configuring services, and troubleshooting real scenarios.</p><a href="https://www.virtualbox.org/wiki/Downloads" target="_blank" rel="noopener noreferrer">Try VirtualBox <span aria-hidden="true">↗</span></a></div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="section-shell about-layout">
+          <div class="about-stamp" aria-hidden="true"><span>LEARN</span><b>IT</b><span>BUILD</span></div>
+          <div class="about-copy">
+            <p class="eyebrow"><span class="section-number">04</span> THE PERSON BEHIND THE PAGE</p>
+            <h2>Curious by nature.<br><span>Building what's next.</span></h2>
+            <p class="about-description">Hi, I’m <strong>Khen Joseph C Dela Cruz</strong>, a <strong>Bachelor of Science in Information Technology</strong> student interested in how technology works behind the scenes. I created this guide to make the System Administrator career path easier to explore.</p>
+            <p class="about-description">My goal is to strengthen my IT foundations, earn relevant certifications, and grow into a systems professional who keeps technology reliable and people supported.</p>
+            <div class="about-details"><span><small>STUDYING</small><b>Bachelor of Science in Information Technology</b></span><span><small>CAREER GOAL</small><b>System Administrator</b></span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="section-shell footer-inner">
+        <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>sysadmin<span class="brand-accent">path</span></span></a>
+        <p>A learning guide for the people behind reliable systems.</p>
+        <a href="#home">Back to top ↑</a>
+        <span class="copyright">© <span id="current-year"></span> SysAdmin Path</span>
+      </div>
+    </footer>
+  </body>
+</html>
